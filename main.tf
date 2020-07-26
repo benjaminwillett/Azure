@@ -109,6 +109,9 @@ resource "azurerm_virtual_machine" "vm1" {
     disable_password_authentication = flase
     }
   }
+output "ip" {
+  value = azurerm_public_ip.publicip1.ip_address
+  }
 
 
 
