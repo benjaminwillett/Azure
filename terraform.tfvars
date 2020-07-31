@@ -1,4 +1,4 @@
-location = "westus"
+location = ""Australia East""
 tags = {
   Environment = "Production"
   CostCentre = "123456789"
