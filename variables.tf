@@ -7,6 +7,6 @@ variable "location" {
 variable "tags" {
   type = map(string)
   
-  default = "TEST"
+  default = {"TEST":"TEEEEEEEEEEEEEEEEE"}
 }
    
