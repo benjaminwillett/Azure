@@ -25,11 +25,11 @@ provider "azurerm" {
 resource "azurerm_resource_group" "rg1" {
   name = "myTFResourceGroup"
   location = var.location
- */
+ /*
  tags = {
     var.tags
 }
- /*
+ */
 }
  # create a virtual network#
 resource "azurerm_virtual_network" "vnet" {
