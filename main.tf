@@ -14,10 +14,11 @@ provider "azurerm" {
   version = "~>1.32.0"
   
 # the prefered authentication mechanism for Azure is managed identity #
-
+/*
   use_msi = true
   subscription_id = "<id details>"
   tenant_id = "<tenant details>"
+*/
 }
 
 # create a new resource group #
