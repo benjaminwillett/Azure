@@ -95,7 +95,7 @@ resource "azurerm_virtual_machine" "vm1" {
   name  = "myTFVM"
   location  = var.location
   resource_group_name = azurerm_resource_group.rg1.name
-  network_interfae_ids  = [azurerm_network_interface.nic1.id]
+  network_interface_ids  = [azurerm_network_interface.nic1.id]
   vm_size = "Standard_DS1_v2"
   
   storage_os_disk {
