@@ -7,6 +7,6 @@ variable "location" {
 variable "tags" {
   type = string
   
-  default = "TEST"
+  default = "TESTING"
 }
    
