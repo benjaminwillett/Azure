@@ -1,7 +1,7 @@
-variable "location" {}
+variable "location" {"Australia East"}
 
 variable "tags" {
-  type = "map"
+  type = "map(string)"
   
   default = {}
 }
