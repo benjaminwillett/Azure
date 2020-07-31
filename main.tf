@@ -67,7 +67,7 @@ resource "azurerm_network_security_group" "nsg1" {
     priority  = 1001
     direction = "Inbound"
     access = "Allow"
-    protocol = "Tco"
+    protocol = "Tcp"
     source_port_range = "*"
     destination_port_range  = "22"
     source_address_prefix = "*"
@@ -119,7 +119,7 @@ resource "azurerm_virtual_machine" "vm1" {
     }
   
   os_profile_linux_config {
-    disable_password_authentication = flase
+    disable_password_authentication = false
     }
   }
 output "ip" {
