@@ -5,8 +5,11 @@ variable "location" {
  }
 
 variable "tags" {
-  type = string
-  
-  default = "TESTING"
+    type = map(string)
+
+    default = {
+        Environment = "Terraform GS"
+        Dept = "Engineering"
+  }
 }
    
